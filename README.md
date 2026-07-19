@@ -8,7 +8,7 @@ with a boot disk, a network interface and optional external IP.
 
 ```hcl
 module "instance" {
-  source = "github.com/cybercapybara/terraform-google-compute-instance"
+  source = "github.com/moveeeax/terraform-google-compute-instance"
 
   project_id   = var.project_id
   name         = "app-server"
