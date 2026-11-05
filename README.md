@@ -28,7 +28,7 @@ secrets from Secret Manager at boot rather than embedding them.
 
 ```hcl
 module "instance" {
-  source = "github.com/moveeeax/terraform-google-compute-instance"
+  source = "github.com/moveeeax/terraform-google-compute-instance?ref=v1.0.0"
 
   project_id   = var.project_id
   name         = "app-server"
